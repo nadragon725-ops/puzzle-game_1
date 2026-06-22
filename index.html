@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>과제용 슬라이딩 퍼즐</title>
+    <script type="module" crossorigin src="./assets/index-DK7AdkwM.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Ba13XX0a.css">
+  </head>
+  <body>
+    <!-- 봇 방지 및 네틀리파이 수신을 위한 숨겨진 양식 -->
+    <form name="퍼즐완수보고" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="학생이름" />
+      <input type="email" name="수신이메일" />
+      <input type="text" name="소요시간" />
+      <input type="text" name="이동횟수" />
+      <input type="text" name="과제이미지" />
+    </form>
+    
+    <div id="root"></div>
+    <!-- 데이터 압축을 위한 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
+
+  </body>
+</html>
